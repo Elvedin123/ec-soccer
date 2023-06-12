@@ -3,7 +3,7 @@
   flex-direction: row;
   height: 100vh;
   align-items: center;
-  background-image: url(../assets/soccer-page.jpg);
+  background-image: url(../assets/soccer-shoes.jpg);
   background-size: cover;
 }
 
@@ -12,13 +12,19 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 50vw;
+  width: 100vw;
   height: 100vh;
   background-color: rgba(255, 255, 255, .5);
 }
 
+.app-content {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
 .title {
-  font-size: 50px;
+  font-size: 70px;
   font-family: 'First in Line';
 }
 
