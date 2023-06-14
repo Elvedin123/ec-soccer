@@ -1,8 +1,8 @@
-import Nav from "../components/Nav/Nav.jsx"
+import Nav from "../../components/Nav/Nav.jsx"
 import './landingpage.css'
 import React from "react"
-import logo from '../assets/soccer-player.png'
-import ball from '../assets/football.png'
+import logo from '../../assets/soccer-player.png'
+import ball from '../../assets/football.png'
 const LandingPage = () => {
   return (
     <div className="landingpage-container">
