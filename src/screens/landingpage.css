@@ -20,6 +20,8 @@
 
 .app-content {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 100vw;
   height: 100vh;
 }
@@ -31,4 +33,31 @@
 
 .soccer-image {
   height: 300px;
+}
+
+.soccer-ball {
+  transition: transform .7s ease-in-out;
+  margin-top: 50px;
+}
+
+.soccer-ball:hover {
+  transform: rotate(360deg);
+}
+
+.goal-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, .8);
+  border-radius: 10px;
+  width: 40vw;
+  margin-top: 50px;
+  padding-left: 30px;
+  overflow-y: auto;
+  max-height: 100vh;
+}
+
+.soccer-quote {
+  font-style: italic;
 }
